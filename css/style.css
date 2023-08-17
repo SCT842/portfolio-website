@@ -5,19 +5,27 @@ Secondary Color (Blue): #b1dbe2
 Tertiary Color (Cream): #ebd9c8
 */
 body {
-    background-color: lightgray;
+    background-color: #ebd9c8;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000000;
 }
 
 h1 {
     font-family: 'Poiret One', cursive;
+    font-size: 2.75em;
 }
 
 h2 {
     font-family: 'Poiret One', cursive;
+    font-size: 2.00em;
 }
 
-body {
+h3 {
     font-family: 'Lato', sans-serif;
+    font-size: 1.75em;
+    font-weight: 700;
 }
 
 a:visited { /* visited link */
