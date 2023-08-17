@@ -28,6 +28,10 @@ h3 {
     font-weight: 700;
 }
 
+img {
+    width: 100%;
+}
+
 a:visited { /* visited link */
     color: #0330fb;
 }
