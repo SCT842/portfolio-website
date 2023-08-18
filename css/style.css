@@ -4,6 +4,13 @@ Primary Color (Orange): #f9b66c
 Secondary Color (Blue): #0288f5
 Tertiary Color (Cream): #ebd9c8
 */
+header {
+    background-color: #ff44c4;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    border-bottom: 3px solid #4a4a4a;
+}
+
 body {
     background-color: #ebd9c8;
     font-family: 'Lato', sans-serif;
@@ -101,4 +108,10 @@ a:link {
 
 .social.link {
     display: inline-block;
+}
+
+/* layout stylings */
+
+.container {
+    padding: 0 15px;
 }
