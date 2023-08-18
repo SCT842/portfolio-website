@@ -13,26 +13,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="menu">
     <header>
         <nav>
-            <img src="img/logo-v1.svg" alt="logo">
+            <img src="img/logo-v1.svg" alt="logo" width="150" height="150">
             <div>
                 <ul>
-                    <li><a href="about.html"> About</a></li>
-                    <li><a href="index.html"> Projects</a></li>
-                    <li><a href="#contact"> Contact</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main>
+    <main id="mainstream">
         <div title="title page">
             <h1>About Me</h1>
         </div>
         <div title="pic-story-skills-tools">
             <picture>
-                <source srcset="https://file+.vscode-resource.vscode-cdn.net/Users/seantefteller/Desktop/portfolio-site-seantefteller/img/profile-pic.png?version%3D1691787462894" media="(min-width:767px)">
+                <source srcset="https://file+.vscode-resource.vscode-cdn.net/Users/seantefteller/Desktop/portfolio-site-seantefteller/img/profile-pic.png?version%3D1691787462894" media="(max-width:767px)">
                 <img src="img/profile-pic.png" alt="profile picture">
             </picture>
             <div title="story-skills-tools">
@@ -41,7 +41,7 @@
                     <p>Hi, I'm a UI Designer based in Denver, CO with a background in graphic design.</p>
                     <p> I enjoy working on visual problems, developing a project from ideation to developer handoff and collaborating with various team members to complete the task</p>
                     <p>When I'm not working, I'm getting outside in some form or fashion, Acting either within the studio or within a project and playing every type of golf: disc golf, golf and mini golf.</p>
-                    <a href="files/sean-tefteller-resume.pdf" download>Download my Resume</a>
+                    <button href="files/sean-tefteller-resume.pdf" class="button" download>Download my Resume</button>
                 </div>
                 <div title="my skills">
                     <h3>My Skills</h3>
@@ -71,26 +71,28 @@
             </div>
         </div>
     </main>
-    <footer id="contact">
+    <footer id="stamp">
         <div>
             <h2>Get in Touch!</h2>
             <p>Let's connect and collaborate.  I enjoy discussing ideas and getting different groups together for one goal.  You can contact me via cell, email or visit my behance portfolio for more projects.</p>
-            <div>
-                <a href="mailto:seantefteller@gmail.com">Email me</a>
+            <div class="row">
+                <div class="column">
+                    <a href="mailto:seantefteller@gmail.com" class="button contact">Email me</a>
+                </div>
+                <div class="column">
+                    <a href="tel:416-8683" class="button contact">Call Me</a>
+                </div>
             </div>
             <div>
-                    <a href="https://www.linkedin.com/in/sean-tefteller-40981726" target="_blank">
-                        <img src="img/linkedin.svg">
+                    <a href="https://www.linkedin.com/in/sean-tefteller-40981726" target="_blank" class="social link">
+                        <img src="img/linkedin.svg" width="32" height="32">
                     </a>
-                    <h6>LinkedIN</h6>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <img src="img/instagram.svg">
+                    <a href="https://www.instagram.com/" target="_blank" class="social link">
+                        <img src="img/instagram.svg" width="32" height="32">
                     </a>
-                    <h6>Instagram</h6>
-                    <a href="https://www.behance.net/sctdesign" target="_blank">
-                        <img src="img/behance.svg">
+                    <a href="https://www.behance.net/sctdesign" target="_blank" class="social link">
+                        <img src="img/behance.svg" width="32" height="32">
                     </a>
-                    <h6>Behance</h6>
             </div>
             <div>
                 <p>Copyright Sean Tefteller 2023</p>
