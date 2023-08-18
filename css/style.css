@@ -1,7 +1,7 @@
 /*
 colors used:
 Primary Color (Orange): #f9b66c
-Secondary Color (Blue): #b1dbe2
+Secondary Color (Blue): #0288f5
 Tertiary Color (Cream): #ebd9c8
 */
 body {
@@ -42,7 +42,7 @@ a:focus {
     text-decoration: underline; /* Underlining when hovering over a link */
 }
 
-  a:active { /* selected link */
+a:active { /* selected link */
     color: #c27d64;
 }
 
@@ -51,30 +51,54 @@ a:link {
     text-decoration: none; /* No underlining */
 }
 
-.button {
-    display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-    background-color: #ff7f50;
-    color: #ffffff; /* needed to override the default link color */
-    font-weight: 400;
-    padding: 10px;
-    border-radius: 3px;
-    border-bottom: 2px solid #994c30; /* width of the border, type, color */
-    transition: 0.2s opacity;
-}
-
-.button:hover {
-    opacity: 0.8; /* Reduces the opacity of the button to 80% */
-    text-decoration: none;
-}
-
 .button.contact {
-    background-color: transparent;
-    color: #ff7f50;
-    text-transform: uppercase;
-    border: 2px solid #ff7f50;
+    background-color: #0288f5;
+    color: #ffffff;
+    text-transform: none;
+    border: 2px solid #0288f5;
 }
 
 .button.contact:hover {
-    background-color: #ff7f50;
+    background-color: #0288f5;
+    color: #f9b66c;
+    transition: 0.5s opacity;
+}
+
+.button.project {
+    background-color: transparent;
+    color: #0288f5;
+    text-transform: uppercase;
+    border: 2px solid #f9b66c;
+}
+
+.button.project:hover {
+    background-color: #f9b66c;
+    color: #0288f5;
+}
+
+.button {
+    background-color: #0288f5;
+    color: #f9b66c;
+    text-transform: none;
+}
+
+.button:hover {
+    background-color: #0288f5;
     color: #ffffff;
+}
+
+.column {
+    float: center;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.social.link {
+    display: inline-block;
 }
