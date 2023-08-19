@@ -115,3 +115,20 @@ a:link {
 .container {
     padding: 0 15px;
 }
+
+.row {
+    margin: 25px 0;
+}
+
+#work .row {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+#hero h1 {
+    text-align: center;
+}
+
+#mainstream h1, h3, h4, p {
+    text-align: center;
+}
