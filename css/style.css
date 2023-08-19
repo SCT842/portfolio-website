@@ -11,7 +11,7 @@ header {
     text-align: center;
     position: fixed;
     width: 100%;
-    .css-box-shadow {
+    .css-box-shadow 
     width: [object Object]px; 
     height: [object Object]px; 
     background: #ebd9c8; 
@@ -19,7 +19,6 @@ header {
     box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
     -webkit-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
     -moz-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
-}
 }
 
 main {
@@ -52,6 +51,10 @@ h3 {
 
 img {
     width: 100%;
+}
+
+footer {
+    text-align: center;
 }
 
 nav > ul > li > a:visited { /* visited link */
@@ -140,11 +143,15 @@ a:link {
     border-bottom: 1px solid #4a4a4a;
 }
 
-#hero h1 {
+#hero h1, h3, h4, p {
     text-align: center;
 }
 
-#mainstream h1, h3, h4, p {
+#work h2, h3, p {
+    text-align: left;
+}
+
+#stamp h3, p {
     text-align: center;
 }
 
