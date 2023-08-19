@@ -17,7 +17,7 @@
     <header id="home">
         <div class="container">
             <nav>
-                <img src="img/logo-v1.svg" alt="logo" width="150" height="150">
+                <img src="img/logo-v1.svg" alt="logo" width="150" height="150" class="logo">
                 <div>
                     <ul>
                         <li><a href="about.html">About</a></li>
@@ -29,8 +29,8 @@
         </div>
     </header>
     <main id="mainstream">
-        <div class="container">
-            <div title="intro">
+        <div id="hero">
+            <div title="intro" class="container">
                 <section>
                     <h1>Hi, my name is Sean Tefteller</h1>
                     <span>I'm a UI Designer with Frontend Specialization</span>
@@ -40,8 +40,9 @@
                 </section>
             </div>
         </div>
+        <div id="work">
             <div title="projects container" class="container">
-                <div title="title holder">
+                <div>
                     <h2>My Project Designs</h2>
                         <div class="row">
                             <div title="project 1 picture">
@@ -56,34 +57,35 @@
                                     <a href="otto.html" class="button project">View Project Details</a>
                             </div>
                         </div>
-                    <div class="row">
-                        <div title="project 2 picture">
-                            <picture>
-                                <source srcset="./img/80smix/overview-80s-mix.png" media="(max-width:767px)">
-                                <img src="img/80smix/overview-80s-mix.png" alt="project otto image">
-                            </picture>
+                        <div class="row">
+                            <div title="project 2 picture">
+                                <picture>
+                                    <source srcset="./img/80smix/overview-80s-mix.png" media="(max-width:767px)">
+                                    <img src="img/80smix/overview-80s-mix.png" alt="project otto image">
+                                </picture>
+                            </div>
+                            <div title="p2 info">
+                                    <h3>80s MIX</h3>
+                                    <p>Eighties mix is a music streamign app dedicated solely to the 1980's genres and all its glory!</p>
+                                    <a href="#" class="button project">View Project Details</a>
+                            </div>
                         </div>
-                        <div title="p2 info">
-                                <h3>80s MIX</h3>
-                                <p>Eighties mix is a music streamign app dedicated solely to the 1980's genres and all its glory!</p>
-                                <a href="#" class="button project">View Project Details</a>
+                        <div class="row">
+                            <div title="project 3 picture">
+                                <picture>
+                                    <source srcset="./img/notable/notable-overview1.png" media="(max-width:767px)">
+                                    <img src="img/notable/notable-overview1.png" alt="project otto image">
+                                </picture>
+                            </div>
+                            <div title="p3 info">
+                                    <h3>TBD P3</h3>
+                                    <p>Will either be Preemie app or Nutriquick app.</p>
+                                    <a href="#" class="button project">View Project Details</a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div title="project 3 picture">
-                            <picture>
-                                <source srcset="./img/notable/notable-overview1.png" media="(max-width:767px)">
-                                <img src="img/notable/notable-overview1.png" alt="project otto image">
-                            </picture>
-                        </div>
-                        <div title="p3 info">
-                                <h3>TBD P3</h3>
-                                <p>Will either be Preemie app or Nutriquick app.</p>
-                                <a href="#" class="button project">View Project Details</a>
-                        </div>
-                    </div>
                 </div>
             </div>
+        </div>
     </main>
     <footer id="stamp">
         <div class="container">
