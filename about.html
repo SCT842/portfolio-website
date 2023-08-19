@@ -26,25 +26,26 @@
             </nav>
         </div>
     </header>
-    <main id="mainstream">
-        <div title="title page" class="container">
+    <main>
+        <div title="title page" class="container" id="hero">
             <h1>About Me</h1>
+            <div title="pic-story-skills-tools" class="container">
+                <picture>
+                    <source srcset="./img/profile-pic.png" media="(max-width:767px)">
+                    <img src="img/profile-pic.png" alt="profile picture">
+                </picture>
+            </div>
         </div>
-        <div title="pic-story-skills-tools" class="container">
-            <picture>
-                <source srcset="./img/profile-pic.png" media="(max-width:767px)">
-                <img src="img/profile-pic.png" alt="profile picture">
-            </picture>
-            <div title="story-skills-tools">
-                <div title="story">
-                    <h2>My Story</h2>
-                    <p>Hi, I'm a UI Designer based in Denver, CO with a background in graphic design.</p>
-                    <p> I enjoy working on visual problems, developing a project from ideation to developer handoff and collaborating with various team members to complete the task</p>
-                    <p>When I'm not working, I'm getting outside in some form or fashion, Acting either within the studio or within a project and playing every type of golf: disc golf, golf and mini golf.</p>
-                    <button href="files/sean-tefteller-resume.pdf" class="button" download>Download my Resume</button>
-                </div>
+        <div title="story-skills-tools" id="work">
+            <div title="story">
+                <h2>My Story</h2>
+                <p>Hi, I'm a UI Designer based in Denver, CO with a background in graphic design.</p>
+                <p> I enjoy working on visual problems, developing a project from ideation to developer handoff and collaborating with various team members to complete the task</p>
+                <p>When I'm not working, I'm getting outside in some form or fashion, Acting either within the studio or within a project and playing every type of golf: disc golf, golf and mini golf.</p>
+                <button href="files/sean-tefteller-resume.pdf" class="button" download>Download my Resume</button>
+            </div>
                 <div title="my skills">
-                    <h3>My Skills</h3>
+                    <h4>My Skills</h4>
                         <ul>
                             <li>Wireframing</li>
                             <li>Prototyping</li>
@@ -59,7 +60,7 @@
                         </ul>
                 </div>
                 <div title="tools">
-                    <h3>Tools</h3>
+                    <h4>Tools</h4>
                         <ul>
                             <li>Figma</li>
                             <li>Adobe XD</li>
@@ -68,7 +69,6 @@
                             <li>Adobe Indesign</li>
                         </ul>
                 </div>
-            </div>
         </div>
     </main>
     <footer id="stamp">
