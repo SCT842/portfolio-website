@@ -11,14 +11,6 @@ header {
     text-align: center;
     position: fixed;
     width: 100%;
-    .css-box-shadow 
-    width: [object Object]px; 
-    height: [object Object]px; 
-    background: #ebd9c8; 
-    border: solid #ebd9c8 1px; 
-    box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
-    -webkit-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
-    -moz-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
 }
 
 main {
@@ -178,4 +170,14 @@ nav > ul > li > a {
 nav {
     display: inline-block;
     width: 100%;
+}
+
+.css-box-shadow {
+width: [object Object]px; 
+height: [object Object]px; 
+background: #ebd9c8; 
+border: solid #ebd9c8 1px; 
+box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
+-webkit-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
+-moz-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
 }
