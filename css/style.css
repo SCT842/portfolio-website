@@ -172,14 +172,14 @@ nav {
     width: 100%;
 }
 header{
-    .css-box-shadow {
-        width: [object Object]px; 
-        height: [object Object]px; 
-        background: #ebd9c8; 
-        border: solid #ebd9c8 1px; 
-        box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
-        -webkit-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
-        -moz-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
-        }
+.css-box-shadow {
+    width: [object Object]px; 
+    height: [object Object]px; 
+    background: #ebd9c8; 
+    border: solid #ebd9c8 1px; 
+    box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
+    -webkit-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
+    -moz-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
+    }
 }
 
