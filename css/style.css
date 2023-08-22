@@ -196,6 +196,9 @@ nav {
         float: right;
         margin-top: 4px;
     }
+    .col-md-6 {
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width: 1040px) {
