@@ -77,16 +77,22 @@ a:link {
 }
 
 .button.contact {
+    display: inline-block;
     background-color: #0288f5;
     color: #ffffff;
+    font-weight: 700;
     text-transform: none;
-    border: 2px solid #0288f5;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #0288f5;
+    transition-duration: 0.2s;
+    transition-property: opacity;
 }
 
 .button.contact:hover {
     background-color: #0288f5;
     color: #f9b66c;
-    transition: 0.5s opacity;
+    transition: 0.8s;
 }
 
 .button.project {
