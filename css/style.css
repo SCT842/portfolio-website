@@ -101,13 +101,13 @@ a:link {
     color: #0288f5;
 }
 
-.button {
+.buttonres {
     background-color: #0288f5;
     color: #f9b66c;
     text-transform: none;
 }
 
-.button:hover {
+.buttonres:hover {
     background-color: #0288f5;
     color: #ffffff;
 }
@@ -193,7 +193,7 @@ nav {
     }
     nav {
         width: auto;
-        float: right;
+        float: center;
         margin-top: 4px;
     }
     .col-md-6 {
@@ -220,7 +220,7 @@ nav {
     }
     nav {
         width: auto;
-        float: right;
+        float: center;
         margin-top: 4px;
     }
     .col-lg-7 {
