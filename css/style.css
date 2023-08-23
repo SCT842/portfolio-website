@@ -85,8 +85,7 @@ a:link {
     padding: 10px;
     border-radius: 3px;
     border-bottom: 2px solid #0288f5;
-    transition-duration: 0.2s;
-    transition-property: opacity;
+    transition: 0.2s opacity;
 }
 
 .button.contact:hover {
@@ -96,15 +95,18 @@ a:link {
 }
 
 .button.project {
+    display: inline-block;
     background-color: transparent;
     color: #0288f5;
     text-transform: uppercase;
-    border: 2px solid #f9b66c;
+    padding: 5px;
+    transition: 0.4s opacity;
 }
 
 .button.project:hover {
     background-color: #f9b66c;
     color: #0288f5;
+    transition: 0.8s;
 }
 
 .buttonres {
