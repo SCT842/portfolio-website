@@ -41,6 +41,7 @@ h1 {
 h2 {
     font-family: 'Poiret One', cursive;
     font-size: 2.00em;
+    margin-left: 5px;
 }
 
 h3 {
@@ -110,14 +111,19 @@ a:link {
 }
 
 .buttonres {
+    display: inline-block;
     background-color: #0288f5;
     color: #f9b66c;
     text-transform: none;
+    padding: 5px;
+    margin-left: 10px;
+    transition: 0.5s opacity;
 }
 
 .buttonres:hover {
     background-color: #0288f5;
     color: #ffffff;
+    transition: 0.8s;
 }
 
 .column {
