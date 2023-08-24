@@ -201,8 +201,9 @@ nav {
     }
     nav {
         width: auto;
-        float: center;
-        margin-top: 4px;
+        float: right;
+        margin-top: 40px;
+        font-size: 20px;
     }
     .col-md-6 {
         width: 50%;
@@ -229,7 +230,8 @@ nav {
     nav {
         width: auto;
         float: center;
-        margin-top: 4px;
+        margin-top: 40px;
+        font-size: 22px;
     }
     .col-lg-7 {
         width: 40%;
@@ -291,5 +293,5 @@ nav {
 }
 
 .cloud-back {
-    animation: 34s cloud-move-reverse infinite alternate linear;
+    animation: 34s cloud-move-reverse infinite alternate
 }
