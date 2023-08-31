@@ -195,6 +195,16 @@ nav {
     width: 100%;
 }
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*=col-] {
+    float: left;
+    padding: 10px;
+}
 /* media queries */
 
 @media only screen and (min-width: 640px) {
@@ -210,15 +220,6 @@ nav {
     }
     .col-md-6 {
         width: 50%;
-    }
-    [class*=col-] {
-        float: left;
-        padding: 10px;
-    }
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
     }
     #menu h4 {
         margin-top: 0;
@@ -237,19 +238,10 @@ nav {
         font-size: 22px;
     }
     .col-lg-7 {
-        width: 40%;
+        width: 70%;
     }
     .col-lg-5 {
         width: 30%;
-    }
-    [class*=col-] {
-        float: left;
-        padding: 10px;
-    }
-    .row::after {
-        content: "";
-        clear: both;
-        display: table;
     }
     #menu h4 {
         margin-top: 0;
