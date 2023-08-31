@@ -129,12 +129,6 @@ a:link {
     padding: 5px;
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .social.link {
     display: inline-block;
 }
@@ -198,7 +192,6 @@ nav {
 .row::after {
     content: "";
     clear: both;
-    display: table;
 }
 
 [class*=col-] {
