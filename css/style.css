@@ -143,7 +143,7 @@ a:link {
 }
 
 #hero h1, h3, h4, p {
-    text-align: center;
+    text-align: left;
 }
 
 #hero span {
@@ -154,11 +154,11 @@ a:link {
     text-align: left;
 }
 
-#stamp h3, p {
-    text-align: center;
+.logo {
+    max-width: 150px;
 }
 
-.logo {
+.profile {
     max-width: 250px;
 }
 
@@ -224,12 +224,10 @@ nav {
         margin-top: 40px;
         font-size: 22px;
     }
-    .col-lg-7 {
+    .col-lg-6 {
         width: 70%;
     }
-    .col-lg-5 {
-        width: 30%;
-    }
+
     #menu h4 {
         margin-top: 0;
     }
