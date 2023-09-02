@@ -6,7 +6,7 @@ Tertiary Color (Cream): #ebd9c8
 */
 header {
     background-color: #ebd9c8;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 6px 10px;
     margin: 0px 10px 10px 0px;
     position: fixed;
     width: 100%;
@@ -126,6 +126,9 @@ a:link {
     display: inline-block;
 }
 
+.navtoggle, .navtoggle.responsive {
+    position: relative;
+}
 /* layout stylings */
 
 .container {
@@ -164,6 +167,7 @@ a:link {
 nav > ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 nav > ul > li > a {
@@ -171,11 +175,6 @@ nav > ul > li > a {
     text-transform: uppercase;
     font-weight: 700;
     color: #0288f5
-}
-
-nav {
-    display: inline-block;
-    width: 100%;
 }
 
 [class*=col-] {
@@ -187,6 +186,21 @@ nav {
     clear: both;
     display: table;
 }
+
+.navtoggle li:not(:last-child) {
+    display: none;
+}
+
+.navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding: 0;
+    margin-top: 40px;
+}
+
+
 /* media queries */
 
 @media only screen and (min-width: 640px) {
@@ -208,6 +222,15 @@ nav {
     }
     nav > ul > li {
         display: inline-block;
+    }
+    .navtoggle li:not(:last-child) {
+        display: inline-block;
+    }
+    .navtoggle li:last-child {
+        display: none;
+    }
+    nav > ul {
+        margin: 1em 0;
     }
 }
 
