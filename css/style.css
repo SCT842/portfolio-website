@@ -8,7 +8,6 @@ header {
     background-color: #ebd9c8;
     padding: 10px 10px 10px 10px;
     margin: 0px 10px 10px 0px;
-    text-align: center;
     position: fixed;
     width: 100%;
     background: #ebd9c8; 
@@ -167,10 +166,6 @@ nav > ul {
     padding: 0;
 }
 
-nav > ul > li {
-    display: inline-block;
-}
-
 nav > ul > li > a {
     padding: 0 15px;
     text-transform: uppercase;
@@ -210,6 +205,9 @@ nav {
     }
     #menu h4 {
         margin-top: 0;
+    }
+    nav > ul > li {
+        display: inline-block;
     }
 }
 
