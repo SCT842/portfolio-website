@@ -129,6 +129,7 @@ a:link {
 .navtoggle, .navtoggle.responsive {
     position: relative;
 }
+
 /* layout stylings */
 
 .container {
@@ -200,6 +201,19 @@ nav > ul > li > a {
     margin-top: 40px;
 }
 
+.navtoggle.responsive li  {
+    display: block;
+    padding: 6px;
+    background-color: rgb(235, 217, 200 0.1);
+}
+
+.navtoggle.responsive li:last-child  {
+    padding: 0 0 5px;
+}
+
+.navtoggle.responsive nav {
+    padding: 10px 0 0;
+}
 
 /* media queries */
 
