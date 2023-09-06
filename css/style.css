@@ -110,7 +110,7 @@ a:link {
 .buttonres {
     display: inline-block;
     background-color: #0330fb;
-    color: #f9b66c;
+    color: #ffffff;
     text-transform: none;
     padding: 5px;
     margin-left: 10px;
@@ -119,7 +119,7 @@ a:link {
 
 .buttonres:hover {
     background-color: #0330fb;
-    color: #ffffff;
+    color: #f9b66c;
     transition: 0.8s;
 }
 
@@ -206,7 +206,7 @@ nav > ul > li > a {
 .navtoggle.responsive li  {
     display: block;
     padding: 6px;
-    background-color: rgb(235, 217, 200 0.1);
+    background-color: rgb(235, 217, 200);
 }
 
 .navtoggle.responsive li:last-child  {
@@ -257,7 +257,7 @@ nav > ul > li > a {
     }
     nav {
         width: auto;
-        float: center;
+        float: right;
         margin-top: 40px;
         font-size: 22px;
     }
