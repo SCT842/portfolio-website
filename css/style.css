@@ -75,18 +75,19 @@ a:link {
 
 .button.contact {
     display: inline-block;
-    background-color: #0288f5;
+    background-color: #0330fb;
     color: #ffffff;
     font-weight: 700;
     text-transform: none;
+    margin: 10px;
     padding: 10px;
     border-radius: 3px;
-    border-bottom: 2px solid #0288f5;
+    border-bottom: 2px solid #0330fb;
     transition: 0.2s opacity;
 }
 
 .button.contact:hover {
-    background-color: #0288f5;
+    background-color: #0330fb;
     color: #f9b66c;
     transition: 0.8s;
 }
@@ -94,7 +95,7 @@ a:link {
 .button.project {
     display: inline-block;
     background-color: transparent;
-    color: #0288f5;
+    color: #0330fb;
     text-transform: uppercase;
     padding: 5px;
     transition: 0.4s opacity;
@@ -102,13 +103,13 @@ a:link {
 
 .button.project:hover {
     background-color: #f9b66c;
-    color: #0288f5;
+    color: #0330fb;
     transition: 0.8s;
 }
 
 .buttonres {
     display: inline-block;
-    background-color: #0288f5;
+    background-color: #0330fb;
     color: #f9b66c;
     text-transform: none;
     padding: 5px;
@@ -117,7 +118,7 @@ a:link {
 }
 
 .buttonres:hover {
-    background-color: #0288f5;
+    background-color: #0330fb;
     color: #ffffff;
     transition: 0.8s;
 }
