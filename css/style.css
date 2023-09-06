@@ -108,7 +108,7 @@ a:link {
 }
 
 .buttonres {
-    display: inline-block;
+    /* display: inline-block; */
     background-color: #0330fb;
     color: #ffffff;
     text-transform: none;
