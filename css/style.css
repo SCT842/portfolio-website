@@ -208,7 +208,6 @@ nav > ul > li > a {
 .navtoggle.responsive li  {
     display: block;
     padding: 6px;
-    background-color: #ffffff;
 }
 
 .navtoggle.responsive li:last-child  {
