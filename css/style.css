@@ -112,7 +112,7 @@ a:link {
 .buttonres {
     display: inline-block;
     background-color: #0330fb;
-    color: #ffffff;
+    color: #f9b66c;
     text-transform: none;
     padding: 5px;
     margin-left: 10px;
@@ -121,7 +121,7 @@ a:link {
 
 .buttonres:hover {
     background-color: #0330fb;
-    color: #f9b66c;
+    color: #ffffff;
     transition: 0.8s;
 }
 
