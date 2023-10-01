@@ -5,13 +5,13 @@ Secondary Color (Blue): #0288f5
 Tertiary Color (Cream): #ebd9c8
 */
 header {
-    background-color: #0288f5;
+    background-color: #f9b66c;
     padding: 10px 10px 6px 10px;
     margin: 0px 10px 10px 0px;
     position: fixed;
     width: 100%;
-    background: #0288f5; 
-    border: 1px solid #0288f5; 
+    background: #f9b66c; 
+    border: 1px solid #f9b66c; 
     box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
     -webkit-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
     -moz-box-shadow: 5px 6px 25px rgba(0, 0, 0, 0.3)  ; 
@@ -57,7 +57,7 @@ footer {
 }
 
 nav > ul > li > a:visited { /* visited link */
-    color: #ffffff;
+    color: #0330fb;
 }
 
 nav > ul > li > a:hover,
@@ -71,14 +71,14 @@ nav > ul >li > a:active { /* selected link */
 }
 
 a:link {
-    color: #ffffff;
+    color: #0330fb;
     text-decoration: none; /* No underlining */
 }
 
 .button.contact {
     display: inline-block;
     background-color: #0330fb;
-    color: #ffffff;
+    color: #0330fb;
     font-weight: 700;
     text-transform: none;
     margin: 10px;
