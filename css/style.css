@@ -96,16 +96,16 @@ a:link {
 
 .button.project {
     display: inline-block;
-    background-color: transparent;
-    color: #0330fb;
+    background-color: #0330fb;
+    color: #ffffff;
     text-transform: uppercase;
     padding: 5px;
     transition: 0.4s opacity;
 }
 
 .button.project:hover {
-    background-color: #f9b66c;
-    color: #0330fb;
+    background-color: #0330fb;
+    color: #f9b66c;
     transition: 0.8s;
 }
 
