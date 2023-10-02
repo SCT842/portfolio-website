@@ -57,7 +57,7 @@ footer {
 }
 
 nav > ul > li > a:visited { /* visited link */
-    color: #ffffff;
+    color: #6702f5;
 }
 
 nav > ul > li > a:hover,
@@ -71,14 +71,14 @@ nav > ul >li > a:active { /* selected link */
 }
 
 a:link {
-    color: #0330fb;
+    color: #ffffff;
     text-decoration: none; /* No underlining */
 }
 
 .button.contact {
     display: inline-block;
     background-color: #0330fb;
-    color: #0330fb;
+    color: #ffffff;
     font-weight: 700;
     text-transform: none;
     margin: 10px;
