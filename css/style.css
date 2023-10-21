@@ -162,7 +162,7 @@ a:link {
 
 .logo {
     max-width: 50px;
-    position: center;
+    padding: 20px 0px 20px 0px;
 }
 
 .profile {
