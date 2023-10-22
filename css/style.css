@@ -229,7 +229,8 @@ nav > ul > li > a {
     nav {
         width: auto;
         float: right;
-        margin-top: 40px;
+        margin-top: 20px;
+        padding-bottom: 10px;
         font-size: 20px;
     }
     .col-md-6 {
