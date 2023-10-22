@@ -131,6 +131,7 @@ a:link {
 
 .navtoggle, .navtoggle.responsive {
     position: relative;
+    padding-bottom: 10px;
 }
 
 /* layout stylings */
